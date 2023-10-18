@@ -15,5 +15,6 @@ namespace WanderleyFlores_Ejercicio1CF.Data
         }
 
         public DbSet<WanderleyFlores_Ejercicio1CF.Models.Burger> Burger { get; set; } = default!;
+        public DbSet<WanderleyFlores_Ejercicio1CF.Models.Promo> Promo { get; set; } = default!;
     }
 }
